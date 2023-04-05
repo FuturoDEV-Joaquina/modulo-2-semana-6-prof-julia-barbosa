@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './App.css'; 
+import Events from './components/Events';
+import Formulario from './components/Formulario';
+import OnChanges from './components/OnChanges';
+import OnMouseOver from './components/OnMouseOver';
+import OnSubmit from './components/OnSubmit';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Events/>
+      <OnChanges/>
+      <OnSubmit/>
+      <OnMouseOver/> */}
+      <Formulario/>
     </div>
   );
 }
