@@ -13,7 +13,7 @@ function App() {
       <OnChanges/>
       <OnSubmit/>
       <OnMouseOver/> */}
-      <Formulario/>
+      <Formulario usuario={{nome: "Adriana", email: "aluna@gmail.com"}} />
     </div>
   );
 }
