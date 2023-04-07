@@ -75,11 +75,10 @@ const Formulario = ({ usuario }) => {
                 </ul>
             </label>
            
-
             <input type="submit" className='btn' value="enviar formulário" />
         </form>
     </div>
   )
 }
 
-export default Formulario
+export default Formulario;
